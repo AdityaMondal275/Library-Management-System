@@ -1,13 +1,13 @@
 
 import './App.css';
 import "./index.css";
- import Dashboard  from './Components/Dashboard';
+ import Dashboard  from './components/Dashboard';
  import { BrowserRouter as Router,Routes, Route,  } from 'react-router-dom';
 
-import Members from "./Components/Members";
-import Issued from './Components/Issued';
-import Returned from './Components/Returned';
-import Books from './Components/Books';
+import Members from "./components/Members";
+import Issued from './components/Issued';
+import Returned from './components/Returned';
+import Books from './components/Books';
 
 
 const  App=()=> {
