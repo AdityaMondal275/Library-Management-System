@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.members-body{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+.whole{
+    padding: 10px;
+}
+.members-logo{
+    height: 50px;
+    width: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    
+}
+
+.group-logo{
+    /* height: 40px; */
+    font-size: 50px;
+    margin-right: 10px;
+    display: flex;
+    
+    align-items: top;
+    text-align: top;
+    justify-content: top;
+
+}
+
+.add-user{
+    height: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-sec{
+    display: flex;
+}
+.add-user .btn1{
+    background-color: rgb(75, 241, 89);
+    justify-content: space-between;
+    display: flex;
+    color:black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.add-user .btn2{
+    background-color: rgb(206, 235, 58);
+    /* justify-content: space-between; */
+    display: flex;
+    color: black;
+    margin-left: 0%;
+    border-radius: 0%;
+    /* border-bottom-left-radius: 10px; */
+}
+.add-user .btn3{
+    background-color: rgb(245, 72, 95);
+    /* justify-content: space-between; */
+    display: flex;
+    color:black;
+    margin-left: 0%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:0%;
+    border-bottom-left-radius: 0%;
+
+
+}
+
+.search .btn{
+    margin-left: 5px;
+
+}
+.table-sec{
+    margin-top: 50px;
+}
+.search-sec input{
+    border-radius: 10px;
+    margin-right: 5px;
+}
