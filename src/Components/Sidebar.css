@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    height: 10dvh;
+    width: 100%;
+    background-color: black;
+}
+.sidebar{
+    height: 90dvh;
+    width: 20%;
+    background-color: brown;
+}
+.menu{
+    height: 90dvh;
+    width: 100%;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+}
+.dash{
+    height: 10dvh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.dash Navlink{
+    height: 10dvh;
+    width: 80%;
+    text-decoration: none;
+}
+.dash Navlink:hover{
+    height: 10dvh;
+    width: 80%;
+    background-color: white;
+}
+.mem{
+    height: 10dvh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.mem Navlink{
+    height: 10dvh;
+    width: 80%;
+    text-decoration: none;
+}
+.mem Navlink:hover{
+    height: 10dvh;
+    width: 80%;
+    background-color: white;
+}
+.book{
+    height: 10dvh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.book Navlink{
+    height: 10dvh;
+    width: 80%;
+    text-decoration: none;
+}
+.book Navlink:hover{
+    height: 10dvh;
+    width: 80%;
+    background-color: white;
+}
+.isd{
+    height: 10dvh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.isd Navlink{
+    height: 10dvh;
+    width: 80%;
+    text-decoration: none;
+}
+.isd Navlink:hover{
+    height: 10dvh;
+    width: 80%;
+    background-color: white;
+}
+.rtn{
+    height: 10dvh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.rtn Navlink{
+    height: 10dvh;
+    width: 80%;
+    text-decoration: none;
+}
+.rtn Navlink:hover{
+    height: 10dvh;
+    width: 80%;
+    background-color: white;
+}

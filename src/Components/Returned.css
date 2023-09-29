@@ -1,132 +1,7 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-}
-.body{
-    display: flex;
-}
-
-.whole{
-    margin: 2%;
-}
-
-.panel{
-    height: 70px;
-    width: 100%;
-    background-color: rgb(209, 75, 75);
-    margin-top: 20px;
-    display: flex;
-}
-.btn-sec{
-    height: 50px;
-    width: 45%;
-    display: flex;
-}
-.panel .add-user{
-    background-color: rgb(75, 241, 89);
-    justify-content: space-between;
-    display: flex;
-    color:black;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.panel .filter{
-    background-color: rgb(206, 235, 58);
-    justify-content: space-between;
-    display: flex;
-    color: black;
-    margin-left: 0%;
-    border-radius: 0%;
-    border-bottom-left-radius: 10px;
-}
-.panel .show-all{
-    background-color: rgb(245, 72, 95);
-    justify-content: space-between;
-    display: flex;
-    color:black;
-    margin-left: 0%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.space{
-    height: 50px;
-    width: 35%;
-}
-.search{
-    height: 40px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-.search input{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; 
-}
-.search input:hover{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(135, 44, 44);
-    background-color: white;
-    font-weight: 700;
-}
-.search-logo{
-    height: 40px;
-    width: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-.search-logo button{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.search-logo button:hover{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(135, 44, 44);
-    background-color: white;
-    font-weight: 700;
-}
-.table-sec{
-    margin-top: 50px;
-}
-.search-sec input{
-    border-radius: 10px;
-    margin-right: 5px;
-} */
-
 *{
     margin: 0%;
     padding: 0%;
 }
-
 .body{
     height: 90dvh;
     width: 100%;
@@ -148,7 +23,7 @@
     margin-top: 20px;
     display: flex;
 }
-.add-user{
+.filter{
     height: 40px;
     width: 15%;
     display: flex;
@@ -156,7 +31,7 @@
     align-items: center;
     margin-top: 10px;
 }
-.add-user a{
+.filter a{
     height: 40px;
     width: 100%;
     background-color: rgb(135, 44, 44);
@@ -170,7 +45,7 @@
     border-bottom-left-radius: 5px;
 
 }
-.add-user a:hover{
+.filter a:hover{
     height: 40px;
     width: 100%;
     display: flex;
@@ -180,33 +55,6 @@
     background-color: white;
     font-weight: 700;
 }
-.filter{
-    height: 40px;
-    width: 15%;
-    margin-top: 10px;
-}
-.filter a{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-}
-.filter a:hover{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(135, 44, 44);
-    background-color: white;
-    font-weight: 700;
-}
-
 .show-all{
     height: 40px;
     width: 15%;
@@ -240,7 +88,7 @@
 }
 .space{
     height: 40px;
-    width: 35%;
+    width: 40%;
     margin-top: 10px;
 }
 .search{
@@ -305,6 +153,6 @@
     background-color: white;
     font-weight: 700;
 }
-.member-table{
+.issued-table{
     margin-top: 5dvh;
 }

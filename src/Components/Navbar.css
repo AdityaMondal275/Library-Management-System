@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    height: 10dvh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .sidebar{
+    height: 90dvh;
+    width: 20%;
+    background-color: brown;
+} */
+.lms{
+    height: 10dvh;
+    width: 90%;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 2%;
+}
+
+.icons{
+    height: 10dvh;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dnav{
+    color: white;
+}
+.dnav:hover{
+    color: rgb(234, 116, 96);
+}

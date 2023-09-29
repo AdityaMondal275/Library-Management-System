@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,10 +7,10 @@ body {
   
 }
 
-/* code {
+code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
 
 .nnav{
   background-color: #4C4B16;
@@ -61,8 +61,8 @@ justify-content:center;
 .hnav{
   display: flex;
   flex-direction: column;
-  /* position:;
-  top: 0px; */
+  position:;
+  top: 0px;
   top: 0px;
   
 }
@@ -79,7 +79,7 @@ menu ul li{
   box-sizing: border-box;
   
   margin: 8px 30px 8px 0px;
-  /* width:155px ; */
+  width:155px ;
 }
 
 #dashboard{
@@ -91,7 +91,7 @@ border: 2px solid #4C4B16;
 border-radius: 8px;
 width: 240px;
 margin:  0px 0px 20px -12px;
-/* padding: 15px; */
+padding: 15px;
 
 }
 
@@ -180,10 +180,10 @@ margin: 6px 13px 3px -16px;
   display: flex;
 justify-content: flex-start;
 align-items:flex-start;
-/* display: inline-block; */
-/* position: absolute;
+display: inline-block; 
+position: absolute;
 left: 310px;
-top: 65px; */
+top: 65px;
 font-weight: bold;
 }
 
@@ -229,13 +229,13 @@ font-weight: bold;
   position: absolute;
 left: 280px;
 top: 45px;
-}
+} 
 
 .dinsidecontainer1{
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  /* margin-top: 5px; */
+  align-items: flex-start; 
+  margin-top: 5px;
 
 }
 
@@ -351,4 +351,4 @@ top: 45px;
   margin-right: 10px;
   margin-top: 15px;
   margin-left: 0px;
-}
+} */

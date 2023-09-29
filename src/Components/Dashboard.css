@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    height: 90dvh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(234, 116, 96);
+}
+
+.whole{
+    overflow-y: scroll;
+    height: 100dvh;
+    width: 80%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.row-1{
+    height: 20dvh;
+    width: 100%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.member{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.member a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.member a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}
+.total-books{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.total-books a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.total-books a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}
+.remaining-books{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.remaining-books a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.remaining-books a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}
+
+.row-2{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10dvh;
+}
+.issued{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.issued a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.issued a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}
+.returned{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.returned a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.returned a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}
+.date{
+    height: 20dvh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.date a{
+    height: 20dvh;
+    width: 100%;
+    background-color: rgb(135, 44, 44);
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.date a:hover{
+    height: 20dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(135, 44, 44);
+    background-color: white;
+    border: 5px solid rgb(135, 44, 44);
+    font-weight: 900;
+}

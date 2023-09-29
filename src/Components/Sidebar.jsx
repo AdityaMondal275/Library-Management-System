@@ -1,61 +1,38 @@
 import React from "react";
+import './Sidebar.css';
 import {  NavLink,  } from 'react-router-dom';
-
+import AssessmentIcon from '@mui/icons-material/Assessment';
+import PeopleIcon from '@mui/icons-material/People';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import AssignmentLateIcon from '@mui/icons-material/AssignmentLate';
+import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 
 const Sidebar =()=>{
     return(
-        <>     
+        <>
+                <div className='sidebar'>
+                        <div  className='menu'>
+                            <div className="dash">
+                                <NavLink  to={"/Dashboard"}> <AssessmentIcon/>Dashboard </NavLink>   
+                            </div>
+                                                
+                            <div className={"mem"}>
+                                <NavLink  to={"/Member"}> <PeopleIcon/>Members </NavLink>
+                            </div>
 
-        <span  className='hnav'>
+                            <div className={"book"}>    
+                                <NavLink  to={"/Book"}> <MenuBookIcon/>Books </NavLink>
+                            </div>
 
-<nav  className='nnav'>
-    <div className="insidenav">
-        Library Management
-    </div>
-    <img src="img/loginicon.png" alt=".." className='logoicon' />
-    <img src="img/bellicon.png" alt=".." className='bellicon' />
-    
-</nav>
+                            <div className={"isd"}>
+                                <NavLink  to={"/Issued"}> <AssignmentLateIcon/>Issued </NavLink>
+                            </div>
 
-<menu className='menu'>
-    <span>
-        <ul  className='mlist'>
-        <div id="dashboard" className='pages'>
-        
-        <img src="img/dashicon.png" alt="" />
-                    <li >  <NavLink  to={"/Dashboard"} className={"dnav"}> Dashboard </NavLink></li>
-        
-        </div>
-        
-       
-        <div  id="member" className='pages'>
-        <img src="img/membericon.png" alt="" />
-        <li >  <NavLink  to={"/Member"} className={"mnav"}> Members </NavLink></li>
-        </div>
-
-           <div  id="books" className='pages'>
-           <img src="img/bookicon.png" alt="" />
-           <li >  <NavLink  to={"/Book"} className={"bnav"}> Books </NavLink></li>
-           </div>
-
-           <div  id="issued" className='pages'>
-           <img src="img/issuedicon.png" alt="" />
-           <li >  <NavLink  to={"/Issued"} className={"inav"}> Issued </NavLink></li>
-           </div>
-
-            <div id="returned" className='pages'>
-            <img src="img/issuedicon.png" alt="" />
-            <li >  <NavLink  to={"/Returned"} className={"rnav"}> Returned </NavLink></li>
-            </div>
-        </ul>
-    </span>
-    <div>
-   
-        
-        
-    </div>
-</menu>
-</span>
+                            <div className={"rtn"}>
+                                <NavLink  to={"/Returned"}><AssignmentTurnedInIcon/>Returned </NavLink>
+                            </div>
+                        </div>
+                </div>
         </>
     )
 }
