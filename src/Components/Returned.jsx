@@ -15,7 +15,7 @@ const Returned=( )=>{
                 <div className="whole">
                     <h1>Returned Books</h1>
                     <div className="sub-navbar">
-                        <div className="filter">
+                        <div className="rtn-filter">
                             <a href="/"><FilterAltIcon/>Filter</a>
                         </div>
                         <div className="show-all">

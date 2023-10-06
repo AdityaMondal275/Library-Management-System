@@ -12,24 +12,24 @@ const Sidebar =()=>{
         <>
                 <div className='sidebar'>
                         <div  className='menu'>
-                            <div className="dash">
-                                <NavLink  to={"/Dashboard"}> <AssessmentIcon/>Dashboard </NavLink>   
+                            <div className="">
+                                <NavLink  to={"/Dashboard"} className={'dash'}> <AssessmentIcon/>Dashboard </NavLink>   
                             </div>
                                                 
-                            <div className={"mem"}>
-                                <NavLink  to={"/Member"}> <PeopleIcon/>Members </NavLink>
+                            <div className={''}>
+                                <NavLink  to={"/Member"} className={'mem'}> <PeopleIcon/>Members </NavLink>
                             </div>
 
-                            <div className={"book"}>    
-                                <NavLink  to={"/Book"}> <MenuBookIcon/>Books </NavLink>
+                            <div className={""}>    
+                                <NavLink  to={"/Book"} className={'book'}> <MenuBookIcon/>Books </NavLink>
                             </div>
 
-                            <div className={"isd"}>
-                                <NavLink  to={"/Issued"}> <AssignmentLateIcon/>Issued </NavLink>
+                            <div className={""}>
+                                <NavLink  to={"/Issued"} className={'isd'}> <AssignmentLateIcon/>Issued </NavLink>
                             </div>
 
-                            <div className={"rtn"}>
-                                <NavLink  to={"/Returned"}><AssignmentTurnedInIcon/>Returned </NavLink>
+                            <div className={""}>
+                                <NavLink  to={"/Returned"} className={'rtn'}> <AssignmentTurnedInIcon/>Returned </NavLink>
                             </div>
                         </div>
                 </div>

@@ -5,9 +5,10 @@
 .navbar{
     height: 10dvh;
     width: 100%;
-    background-color: black;
+    background-color: #001524;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0px 3px 9px #040D12;
 }
 /* .sidebar{
     height: 90dvh;

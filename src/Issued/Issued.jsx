@@ -1,7 +1,7 @@
 import React from "react";
 import './Issued.css';
-import Sidebar from './Sidebar';
-import Navbar from './Navbar';
+import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
 import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import FilterAltIcon from '@mui/icons-material/FilterAlt';
 import BallotIcon from '@mui/icons-material/Ballot';

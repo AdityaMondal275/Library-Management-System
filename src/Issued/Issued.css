@@ -3,24 +3,24 @@
     padding: 0%;
 }
 .body{
-    height: 90dvh;
+    margin: 0px;
+    height: 100dvh;
     width: 100%;
     display: flex;
-    background-color: rgb(234, 116, 96);
+    /* color: white; */
+    background-color: #5C8374;
 }
 
 .whole{
-    overflow-y: scroll;
-    height: 100dvh;
+    /* overflow-y: scroll; */
+    height: 90dvh;
     width: 80%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
 }
 .sub-navbar{
     height: 70px;
     width: 100%;
-    background-color: rgb(209, 75, 75);
     margin-top: 20px;
     display: flex;
 }
@@ -31,12 +31,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    box-shadow: 5px 5px 9px #5C3D2E;
 }
 .add-user a{
     height: 40px;
     width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
+    background-color: #B2533E;
+    border: 2px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -52,7 +53,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: rgb(135, 44, 44);
+    color: #B2533E;
     background-color: white;
     font-weight: 700;
 }
@@ -60,14 +61,15 @@
     height: 40px;
     width: 15%;
     margin-top: 10px;
+    box-shadow: 5px 5px 9px #5C3D2E;
 }
 .filter a{
     height: 40px;
     width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
+    background-color: #B2533E;
+    border: 2px solid #B2533E;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
     color: white;
@@ -76,9 +78,9 @@
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    color: rgb(135, 44, 44);
+    color: #B2533E;
     background-color: white;
     font-weight: 700;
 }
@@ -87,17 +89,20 @@
     height: 40px;
     width: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
+    box-shadow: 5px 5px 9px #5C3D2E;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .show-all a{
     height: 40px;
     width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
+    background-color: #B2533E;
+    border: 2px solid #B2533E;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
     color: white;
@@ -108,9 +113,9 @@
     height: 40px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    color: rgb(135, 44, 44);
+    color: #B2533E;
     background-color: white;
     font-weight: 700;
 }
@@ -123,15 +128,16 @@
     height: 40px;
     width: 25%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
+    box-shadow: 5px 5px 9px #5C3D2E;
 }
 .search input{
     height: 40px;
     width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
+    background-color: #B2533E;
+    border: 2px solid #B2533E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +152,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(135, 44, 44);
+    color: #B2533E;
     background-color: white;
     font-weight: 700;
 }
@@ -157,12 +163,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    box-shadow: 5px 5px 9px #5C3D2E;
 }
 .search-logo button{
     height: 40px;
     width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
+    background-color: #B2533E;
+    border: 2px solid #B2533E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +184,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(135, 44, 44);
+    color: #B2533E;
     background-color: white;
     font-weight: 700;
 }

@@ -5,19 +5,24 @@
 .navbar{
     height: 10dvh;
     width: 100%;
-    background-color: black;
+    background-color:none;
 }
 .sidebar{
-    height: 90dvh;
+    height: 100dvh;
     width: 20%;
-    background-color: brown;
+    background-color: #445D48;
+    box-shadow: 5px 0px 9px #040D12;
 }
 .menu{
-    height: 90dvh;
+    height: 100dvh;
     width: 100%;
     display: list-item;
     justify-content: center;
     align-items: center;
+}
+.Navlink{
+    text-decoration: none;
+    color: white;
 }
 .dash{
     height: 10dvh;
@@ -26,20 +31,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     color: white;
     border-radius: 10px;
     font-weight: 700;
-}
-.dash Navlink{
-    height: 10dvh;
-    width: 80%;
     text-decoration: none;
+    border: 2px solid #183D3D;
+    background-color: #183D3D;
+    box-shadow: 5px 5px 9px #040D12;
 }
-.dash Navlink:hover{
+
+.dash:hover{
     height: 10dvh;
-    width: 80%;
+    width: 90%;
     background-color: white;
+    color:black;
+    text-decoration: none;
 }
 .mem{
     height: 10dvh;
@@ -48,20 +54,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     color: white;
     border-radius: 10px;
     font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #183D3D;
+    background-color: #183D3D;
+    box-shadow: 5px 5px 9px #040D12;
 }
-.mem Navlink{
+/* .mem Navlink{
     height: 10dvh;
     width: 80%;
     text-decoration: none;
-}
-.mem Navlink:hover{
+} */
+.mem:hover{
     height: 10dvh;
-    width: 80%;
+    width: 90%;
     background-color: white;
+    color:black;
+    text-decoration: none;
 }
 .book{
     height: 10dvh;
@@ -70,21 +81,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     color: white;
     border-radius: 10px;
     font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #183D3D;
+    background-color: #183D3D;
+    box-shadow: 5px 5px 9px #040D12;
 }
-.book Navlink{
+/* .book Navlink{
     height: 10dvh;
     width: 80%;
     text-decoration: none;
-}
-.book Navlink:hover{
+} */
+.book:hover{
     height: 10dvh;
-    width: 80%;
+    width: 90%;
     background-color: white;
+    color:black;
+    text-decoration: none;
 }
+    
 .isd{
     height: 10dvh;
     width: 90%;
@@ -92,20 +109,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     color: white;
     border-radius: 10px;
     font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #183D3D;
+    background-color: #183D3D;
+    box-shadow: 5px 5px 9px #040D12;
 }
-.isd Navlink{
+/* .isd Navlink{
     height: 10dvh;
     width: 80%;
     text-decoration: none;
-}
-.isd Navlink:hover{
+} */
+.isd:hover{
     height: 10dvh;
-    width: 80%;
+    width: 90%;
     background-color: white;
+    color:black;
+    text-decoration: none;
 }
 .rtn{
     height: 10dvh;
@@ -114,18 +136,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     color: white;
     border-radius: 10px;
     font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #183D3D;
+    background-color: #183D3D;
+    box-shadow: 5px 5px 9px #040D12;
 }
-.rtn Navlink{
+/* .rtn Navlink{
     height: 10dvh;
     width: 80%;
     text-decoration: none;
-}
-.rtn Navlink:hover{
+} */
+.rtn:hover{
     height: 10dvh;
-    width: 80%;
+    width: 90%;
     background-color: white;
+    color:black;
+    text-decoration: none;
 }

@@ -5,7 +5,7 @@ import "./index.css";
  import { BrowserRouter as Router,Routes, Route,  } from 'react-router-dom';
 
 import Members from './components/Members';
-import Issued from './components/Issued';
+import Issued from './Issued/Issued';
 import Returned from './components/Returned';
 import Books from './components/Books';
 

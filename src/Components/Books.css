@@ -3,17 +3,18 @@
     padding: 0%;
 }
 .body{
-    height: 90dvh;
+    height: 100dvh;
     width: 100%;
     display: flex;
-    background-color: rgb(234, 116, 96);
+    background-color: #D6CC99;
+    
 }
 
 .whole{
     overflow-y: scroll;
     height: 100dvh;
     width: 80%;
-    color: white;
+    color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 20px;
 }

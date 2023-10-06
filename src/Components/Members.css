@@ -1,118 +1,86 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
 }
-.body{
+.in-body{
+    height: 100dvh;
+    width: 100;
     display: flex;
 }
-
-.whole{
-    margin: 2%;
-}
-
-.panel{
-    height: 70px;
+.members-body{
+    height: 50px;
     width: 100%;
-    background-color: rgb(209, 75, 75);
-    margin-top: 20px;
+    background-color: aqua;
+}
+.mem-whole{
+    padding: 10px;
+}
+.members-logo{
+    height: 50px;
+    width: 50px;
+    /* background-color: blueviolet; */
     display: flex;
+    
+}
+
+.group-logo{
+    /* height: 40px; */
+    font-size: 50px;
+    margin-right: 10px;
+    display: flex;
+    align-items: top;
+    text-align: top;
+    justify-content: top;
+
+}
+
+.mem-add-user{
+    height: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 .btn-sec{
-    height: 50px;
-    width: 45%;
     display: flex;
 }
-.panel .add-user{
+.mem-add-user .btn1{
     background-color: rgb(75, 241, 89);
     justify-content: space-between;
     display: flex;
     color:black;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
-.panel .filter{
+.mem-add-user .btn2{
     background-color: rgb(206, 235, 58);
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
     color: black;
     margin-left: 0%;
     border-radius: 0%;
-    border-bottom-left-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
 }
-.panel .show-all{
+.mem-add-user .btn3{
     background-color: rgb(245, 72, 95);
-    justify-content: space-between;
+    /* justify-content: space-between; */
     display: flex;
     color:black;
     margin-left: 0%;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    border-top-left-radius:0%;
+    border-bottom-left-radius: 0%;
+
+
 }
-.space{
-    height: 50px;
-    width: 35%;
-}
-.search{
-    height: 40px;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-.search input{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; 
-}
-.search input:hover{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(135, 44, 44);
-    background-color: white;
-    font-weight: 700;
-}
-.search-logo{
-    height: 40px;
-    width: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-.search-logo button{
-    height: 40px;
-    width: 100%;
-    background-color: rgb(135, 44, 44);
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.search-logo button:hover{
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(135, 44, 44);
-    background-color: white;
-    font-weight: 700;
+
+.search .btn{
+    margin-left: 5px;
+
 }
 .table-sec{
     margin-top: 50px;
@@ -120,8 +88,13 @@
 .search-sec input{
     border-radius: 10px;
     margin-right: 5px;
-} */
+}
 
+
+
+
+
+/* 
 *{
     margin: 0%;
     padding: 0%;
@@ -307,4 +280,4 @@
 }
 .member-table{
     margin-top: 5dvh;
-}
+} */

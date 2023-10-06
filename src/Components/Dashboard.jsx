@@ -11,7 +11,7 @@ const  Dashboard =()=>{
                 <Sidebar/>
                 <div className="whole">
 
-                    <div className="dash">
+                    <div className="dashboard">
                         <h1>Dashboard</h1>
                     </div>
 
