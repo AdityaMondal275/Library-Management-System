@@ -17,6 +17,8 @@
     width: 80%;
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 4vw;
+    margin-top: 4vh;
 }
 .sub-navbar{
     height: 70px;
@@ -31,7 +33,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    box-shadow: 5px 5px 9px #5C3D2E;
+    box-shadow: 0px 5px 9px #5C3D2E;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .add-user a{
     height: 40px;
@@ -61,7 +65,7 @@
     height: 40px;
     width: 15%;
     margin-top: 10px;
-    box-shadow: 5px 5px 9px #5C3D2E;
+    box-shadow: 0px 5px 9px #5C3D2E;
 }
 .filter a{
     height: 40px;
@@ -92,7 +96,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
-    box-shadow: 5px 5px 9px #5C3D2E;
+    box-shadow: 0px 5px 9px #5C3D2E;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -131,7 +135,9 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
-    box-shadow: 5px 5px 9px #5C3D2E;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    box-shadow: 0px 5px 9px #5C3D2E;
 }
 .search input{
     height: 40px;
@@ -163,7 +169,9 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    box-shadow: 5px 5px 9px #5C3D2E;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 5px 9px #5C3D2E;
 }
 .search-logo button{
     height: 40px;

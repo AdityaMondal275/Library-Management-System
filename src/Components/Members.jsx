@@ -14,6 +14,7 @@ const Members = () => {
         <Navbar/>
         <div className="inbody">
         <Sidebar/>
+        <div className="mem-body">
         <div className="members-body">
             <div className="members-logo">
                 <h1><GroupsIcon className='group-logo' fontSize='large'/></h1>
@@ -81,6 +82,7 @@ const Members = () => {
       </table>
     </div>
     </div>
+        </div>
         </div>
     </>
   )

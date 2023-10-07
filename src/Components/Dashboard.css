@@ -11,13 +11,13 @@
 }
 
 .whole{
-    overflow-y: scroll;
     height: 100dvh;
     width: 80%;
     /* color: white; */
     color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin-left: 4vw;
+    margin-top: 4vh;
 }
 .row-1{
     height: 20dvh;
@@ -39,13 +39,14 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
     color: white;
     border-radius: 10px;
+    font-size: 100%;;
 }
 .member a:hover{
     height: 20dvh;
@@ -70,7 +71,7 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -101,7 +102,7 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -139,7 +140,7 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -169,7 +170,7 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -200,7 +201,7 @@
     height: 20dvh;
     width: 100%;
     background-color: #B2533E;
-    border: 5px solid white;
+    border: 5px solid #B2533E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

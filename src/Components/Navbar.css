@@ -17,14 +17,17 @@
 } */
 .lms{
     height: 10dvh;
-    width: 90%;
+    width: 10%;
     color: white;
     font-family:'Times New Roman', Times, serif;
-    text-align: left;
+    text-align: center;
     font-weight: 700;
-    margin-top: 2%;
+    margin-top: 2vh;
 }
-
+.nav-space{
+    height: 10dvh;
+    width: 80%;
+}
 .icons{
     height: 10dvh;
     width: 10%;

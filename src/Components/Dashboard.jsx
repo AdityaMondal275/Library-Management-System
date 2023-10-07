@@ -18,40 +18,40 @@ const  Dashboard =()=>{
                     <div className="row-1">
                         <div className="member">
                             <a href="./Member">
-                                <h4>Members</h4>
-                                <p>300</p>
+                                Members<br/>
+                                300
                             </a>
                         </div>
                         <div className="total-books">
                             <a href="./Books">
-                                <h4>Total Books</h4>
-                                <p>1300</p>
+                                Total Books<br/>
+                                1300
                             </a>
                         </div>
                         <div className="remaining-books">
                             <a href="./Books">
-                                <h4>Total Books</h4>
-                                <p>1001</p>
+                                Total Books<br/>
+                                1001
                             </a>
                         </div>
                     </div>
                     <div className="row-2">
                         <div className="issued">
                             <a href="./Issued">
-                                <h3>Issued Books</h3>
-                                <p>299</p>
+                                Issued Books <br/>
+                                299
                             </a>    
                         </div>
                         <div className="returned">
                             <a href="./Returned">
-                                <h3>Returned Books</h3>
-                                <p>54</p>
+                                Returned Books<br/>
+                                54
                             </a>
                         </div>
                         <div className="date">
-                            <a href="/">
-                                <h3>Date</h3>
-                                <p>DD-MM-YYYY</p>
+                            <a href="">
+                                Date <br/>
+                                DD-MM-YYYY
                             </a>
                         </div>
                     </div>

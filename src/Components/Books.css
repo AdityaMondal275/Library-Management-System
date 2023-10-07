@@ -11,10 +11,10 @@
 }
 
 .whole{
-    overflow-y: scroll;
     height: 100dvh;
-    width: 80%;
+    width: 70%;
     color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 20px;
+    margin-left: 4vw;
+    margin-top: 4vh;
 }

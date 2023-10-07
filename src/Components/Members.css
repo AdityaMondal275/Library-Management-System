@@ -3,9 +3,22 @@
     padding: 0px;
 }
 .in-body{
-    height: 100dvh;
+    /* height: 100dvh;
     width: 100;
+    display: flex; */
+    margin: 0px;
+    height: 100dvh;
+    width: 100%;
     display: flex;
+    /* color: white; */
+    background-color: #5C8374;
+}
+.mem-body{
+    /* overflow-y: scroll; */
+    height: 90dvh;
+    width: 80%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .members-body{
     height: 50px;

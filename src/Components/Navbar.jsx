@@ -9,8 +9,9 @@ const Navbar =()=>{
         <>
             <nav  className='navbar'>
                 <div className="lms">
-                    <h4>Library Management</h4>
+                    Library Management
                 </div>
+                <div className="nav-space"></div>
                 <div className="icons">
                     <div className='logo-icon'><NavLink  to={"/"} className={"dnav"}><AccountCircleIcon/></NavLink></div>
                     <div className='bell-icon'><NavLink  to={"/"} className={"dnav"}><NotificationsIcon/></NavLink></div>   
