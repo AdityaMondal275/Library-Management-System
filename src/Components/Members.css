@@ -3,10 +3,13 @@
     padding: 0px;
 }
 .in-body{
+<<<<<<< HEAD
     /* height: 100dvh;
     width: 100;
     display: flex; */
     margin: 0px;
+=======
+>>>>>>> 55e6cf54723c7b21da057852654f8ce3fd443c05
     height: 100dvh;
     width: 100%;
     display: flex;
@@ -24,6 +27,7 @@
     height: 50px;
     width: 100%;
     background-color: aqua;
+    display: flex;
 }
 .mem-whole{
     padding: 10px;
