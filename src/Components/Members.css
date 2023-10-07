@@ -4,13 +4,14 @@
 }
 .in-body{
     height: 100dvh;
-    width: 100;
+    width: 100%;
     display: flex;
 }
 .members-body{
     height: 50px;
     width: 100%;
     background-color: aqua;
+    display: flex;
 }
 .mem-whole{
     padding: 10px;

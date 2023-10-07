@@ -19,7 +19,7 @@ const Members = () => {
                 <h1><GroupsIcon className='group-logo' fontSize='large'/></h1>
                 <h1>Members</h1>
             </div>
-        </div>
+        
     
 
     <div className="mem-whole">
@@ -79,6 +79,7 @@ const Members = () => {
                 </tr>
             </tbody>
       </table>
+    </div>
     </div>
     </div>
         </div>
