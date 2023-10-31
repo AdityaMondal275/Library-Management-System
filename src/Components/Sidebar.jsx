@@ -17,7 +17,7 @@ const Sidebar =()=>{
                             </div>
                                                 
                             <div className={''}>
-                                <NavLink  to={"/Member"} className={'mem'}> <PeopleIcon/>Members </NavLink>
+                                <NavLink  to={"/Members"} className={'mem'}> <PeopleIcon/>Members </NavLink>
                             </div>
 
                             <div className={""}>    

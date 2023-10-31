@@ -17,9 +17,11 @@ const  Dashboard =()=>{
 
                     <div className="row-1">
                         <div className="member">
-                            <a href="./Member">
-                                Members<br/>
-                                300
+                            <a href="./Members">
+                            <div className="card">
+                                <h5 className="card-header">Members</h5>
+                                <div className="card-body">300</div>
+                            </div>
                             </a>
                         </div>
                         <div className="total-books">
